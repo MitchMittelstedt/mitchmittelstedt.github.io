@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    background-color: rgba(156, 134, 92, 0.43);
+    color: rgba(0, 0, 0, 0.404)
+  }
+  
+  /* Style the header */
+header {
+    background-color: #781;
+    padding: 20px;
+    text-align: center;
+    font-size: 55px;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  /* Style the navigation menu */
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: rgba(207, 143, 216, 0.57);
+    padding: 20px;
+  }
+  
+  /* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style the content */
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #d9cbdd;
+    padding: 40px;
+    font-size: 20px;
+  }
+  
+  /* Style the footer */
+footer {
+    background-color: rgba(156, 134, 92, 0.43);
+    padding: 10px;
+    text-align: center;
+    color: rgb(108, 128, 20);
+  }
+  
+  /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+}
+
+a {
+    color: #781
+  }
+
+table {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.top-nav {
+    padding-block-end: 1;
+    text-align: center;
+    font-size: 30px;   
+  }
+
+.contact-greeting {
+    font-size: 25px;
+    text-align: center;
+  }
+
+
+article h1 {
+    font-size: 50px;
+    text-align: center
+}
+
+.home-link {
+    color: black;
+    text-decoration: none;
+    font-size: 70px;
+}
+
+.side-nav {
+    padding-block-end: 1em;
+    text-align: center;
+    font-size: 35px;
+    text-decoration: none;  
+  }  
+
+.iframe {
+    text-align: center;
+}
+
+.center-projects {
+    text-align: center;
+}
+
+.container { 
+    position: relative;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+[class*="col-"] {
+    width: 100%;
+}
