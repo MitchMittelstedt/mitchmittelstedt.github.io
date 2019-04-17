@@ -68,17 +68,12 @@ a {
     color: #781
   }
 
-table {
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 
 .top-nav {
-    padding-block-end: 1;
+    padding-bottom: 1;
+    padding-top: 1em;
     text-align: center;
-    font-size: 30px;   
+    font-size: 30px;
   }
 
 .contact-greeting {
@@ -95,7 +90,7 @@ article h1 {
 .home-link {
     color: black;
     text-decoration: none;
-    font-size: 70px;
+    font-size: 100px;
 }
 
 .side-nav {
@@ -130,4 +125,8 @@ article h1 {
 
 [class*="col-"] {
     width: 100%;
+}
+
+header h2 a:hover {
+  text-decoration: none;
 }
